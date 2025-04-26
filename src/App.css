@@ -1,0 +1,165 @@
+/*.home-bg {
+    background-image: url(img/top-view-desk-concept-with-copy-space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100%;
+    padding-bottom: 70px; 
+}*/
+
+
+.home-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('img/pen-notebook-near-keyboard.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter: blur(11px);
+    z-index: -1;
+    opacity: 0.9;
+    background: linear-gradient(to right, #eee5f6, #f6e8fd, #f4f2f5);
+    
+  }
+
+.home-section {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    padding: 40px;
+    text-align: center;
+ 
+}
+
+.home-content {
+    width:90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0 auto;
+    
+    
+}
+
+.text-one {
+    font-size: 35px;
+  
+}
+
+.text-two {
+    font-size: 50px;
+font-family: 'Grandiflora One', serif;
+  
+}
+
+.text-three {
+    font-size: 60px;
+}
+
+.text-four {
+    font-size: 24px;
+}
+
+.text-two span::before {
+    content: "Software engineer";
+    animation: animate infinite 5s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Frontend developer";
+    }
+
+    50% {
+        content: "Web designer";
+    }
+
+    75% {
+        content: "Fullstack Developer";
+    }
+    100% {
+        content: "Backend developer";
+    }
+}
+
+.contact-btn {
+   
+    background-color: rgb(196, 160, 211);
+    margin: 3px;
+    border: 3px;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    width: 150px;
+    height: 50px;
+}
+
+.contact-btn:hover {
+   
+    background-color: rgb(172, 164, 176);
+  
+}
+
+.signature {
+    font-family: "Dancing Script", cursive;
+    font-size: 28px;
+    color: #6c5ce7; 
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .glow-text {
+    color: #d098f5;
+    text-shadow: 0 0 5px #a375ba, 0 0 10px #8680db, 0 0 20px #6153d0;
+    animation: glow 1s infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 5px #a68bb3, 0 0 10px #d3a8ef;
+    }
+    to {
+      text-shadow: 0 0 20px #cebaf8, 0 0 30px #e6dfe7;
+    }
+  }
+  
+
+  #codeRain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; 
+    opacity: 0.2; 
+    pointer-events: none; 
+  
+
+    
+  }
+  
+.text {
+    backdrop-filter: blur(15px); 
+    padding:10px;
+    
+  
+}
+
+.text-one, .text-two, .text-three, .text-four {
+    margin-bottom: 25px;  
+    margin-top: 25px;
+}
