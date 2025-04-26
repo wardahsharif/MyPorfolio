@@ -64,7 +64,8 @@ font-family: 'Grandiflora One', serif;
 }
 
 .text-three {
-    font-size: 60px;
+    font-size: 55px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .text-four {
@@ -97,7 +98,7 @@ font-family: 'Grandiflora One', serif;
 
 .contact-btn {
    
-    background-color: rgb(196, 160, 211);
+    background-color: rgb(205, 150, 241);
     margin: 3px;
     border: 3px;
     padding: 8px;

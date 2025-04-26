@@ -9,7 +9,7 @@ const Navbar = () => {
       }}>
       <div className="container">
         <Link className="navbar-brand signature" to="/">
-        Wardah Sharif
+        Wardah.
         </Link>
 
         <button

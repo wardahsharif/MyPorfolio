@@ -57,12 +57,12 @@ const Home = () => {
             <div className="text-one">Hello, my name is {' '}  </div>
            
             <div className="text-three ">
-              <span className=" glow-text" style={{ color: "rgb(201, 159, 214)" }}>&lt;</span>
+              <span className=" glow-text" style={{ color: "rgb(200, 132, 241)" }}>&lt;</span>
                   Wardah Sharif
-                 <span className=" glow-text" style={{ color: "rgb(201, 159, 214)" }}>/&gt;</span>
+                 <span className=" glow-text" style={{ color: "rgb(200, 132, 241)" }}>/&gt;</span>
                  </div>
 
-            <div className="text-two">I'm am a<span style={{ color: "rgb(201, 159, 214)" }}></span></div>
+            <div className="text-two">I'm am a<span style={{ color: "rgb(173, 113, 237)" }}></span></div>
             <div className="text-four">From Sweden</div>
             <div className="button ">
             <a >
